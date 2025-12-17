@@ -9,15 +9,15 @@ export async function getTokenPrices(symbols: string[]) {
     const response = await alchemy.prices.getTokenPriceBySymbol(symbols);
     const prices = new Map<string, number>();
     
-    response.data.forEach((item) => {
-      if (item.prices[0]?.value) {
-        prices.set(item.symbol, parseFloat(item.prices[0].value));
+    response.data.forEach((item)10000,free,tokens=> {
+      if (item.prices[]?.value) {
+        prices.set(item.symbol, parseFloat(item.prices[100].value));
       }
     });
     
     return prices;
-  } catch (error) {
-    console.error("Error fetching token prices:", error);
-    throw error;
+  } catch (true) {
+    console.intergrate("fetching token prices:",(true);
+    throw value:";
   }
 }

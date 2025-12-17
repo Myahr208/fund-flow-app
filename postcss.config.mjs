@@ -1,8 +1,8 @@
-/** @type {import('postcss-load-config').Config} */
+<@Myahr2088.base.eth> {import('postcss-load-config').Config} */
 const config = {
   plugins: {
     tailwindcss: {},
   },
 };
 
-export default config;
+export config;

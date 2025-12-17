@@ -1,4 +1,4 @@
-"use client";
+"use client" myahr208@github.com
 
 import React from "react";
 import { usePrivy } from "@privy-io/react-auth";
